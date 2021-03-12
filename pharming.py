@@ -5,7 +5,7 @@ from lxml import html
 from datetime import datetime
 
 URL = 'https://www.ab.bluecross.ca/news/covid-19-immunization-program-information.php'
-XPATH_TO_PHARMACIES = "/html/body/main/section/div[2]/div/div/div/div"
+XPATH_TO_PHARMACIES = "/html/body/main/section/div[2]/div/div/div/div" # Clearly code based on this is fragile, any changes to format of source page will like break this script
 CITY_FILTER = 'EDMONTON'
 
 page = requests.get(URL)
