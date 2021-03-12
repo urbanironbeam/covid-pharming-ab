@@ -1,5 +1,5 @@
 # covid-pharming-ab
-Tool to scrap the list of pharmacies in Alberta offering COVID vaccinations.
+Tool to scrape the list of pharmacies in Alberta offering COVID vaccinations.
 
 # Usage
 Currently just a single python script file, that will read the pharmacy list from the URL below and output a CSV file.
